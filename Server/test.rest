@@ -1,0 +1,64 @@
+
+GET http://localhost:8000/
+
+###
+
+GET http://localhost:8000/donor
+
+###
+
+POST http://localhost:8000/users
+Content-Type: application/json
+
+{
+    "username": "omar",
+    "email": "omar@gmail.com",
+    "password": "1234"
+}
+
+###
+
+# 648d91466e5e076c3aa93d41 donor
+# 648dc3dd66e4b3a8df714dc1 order
+
+POST http://localhost:8000/dashboard/questions
+Content-Type: application/json
+
+{
+    "question": "كيف يمكنني المشاركة معكم في خيرك ؟",
+    "answer": "التبرع بالملابس (جميع أنواع الملابس، الأحذية، الحقائب، الشراشف، الألحفة، الأقمشة) الوقت (تقدر تطوع بوقتك) المهارات (التصوير، المونتاج، كتابة المحتوى، الخياطة، الأعمال اليدوية…) خيرك سابق، شارك المشروع مع غيرك وكن سبباً في نشر الوعي"
+}
+###
+
+DELETE http://localhost:8000/users/64897663053dc20ce7883a4c
+Content-Type: application/json
+
+###
+
+# Sign up test
+
+                                                            #Admin
+POST http://localhost:8000/admin
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "email": "admin@gmail.com",
+    "password": "123Omar!",
+    "phone": "0778788014"
+}
+
+###
+
+POST http://localhost:8000/login
+Content-Type: application/json
+
+{
+    "email": "omar12@gmail.com",
+    "password": "1234"
+}
+
+###
+
+GET http://localhost:8000/Verify_token
+authorization : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDhkOTBjMzZlNWUwNzZjM2FhOTNkM2QiLCJyb2xlIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsImlhdCI6MTY4NzAwMTI1MiwiZXhwIjoxNjg3NjA2MDUyfQ.FKZNwZQdTkXVwlzxBMATvxVVXJGe0zrRQOLwuv6rZ5w

@@ -1,0 +1,89 @@
+.bg-img-home {
+    background-image: url(../Images/home.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    width: 100%;
+  }
+  
+  .black-opictiy {
+    /* background-color: transparent; */
+    background-image: linear-gradient(271deg, rgba(0, 0, 0, 0.79) 0%, #00000000 100%);
+    z-index: -1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  }
+  
+  .elementor-2035
+    .elementor-element.elementor-element-1258adf
+    > .elementor-shape-bottom
+    .elementor-shape-fill {
+    fill: #006e6a;
+  }
+  
+  .elementor-shape .elementor-shape-fill {
+    fill: #006e6a;
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(3deg);
+  }
+  
+  .elementor-shape[data-negative="false"].elementor-shape-bottom,
+  .elementor-shape[data-negative="true"].elementor-shape-top {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  
+  .bg-services {
+    background-image: url(../Images/imgHome2.png);
+    background-position: 100%;
+    background-size: center center;
+    background-size: cover;
+  }
+  .services-card{
+      margin-bottom: 1rem;
+      display: flex;
+      flex-direction: column;
+  }
+  .img-card{
+      height: 180px;
+      width: 180px;
+  }
+  
+  /* swiper start */
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 300px;
+    margin: 20px auto;
+  }
+  
+  /* bg-Statistics */
+  .bg-Statistics{
+    background-image: url(../Images/Statistics.png);
+    background-position: 100%;
+    background-size: center center;
+    background-size: cover;
+  }

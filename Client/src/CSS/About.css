@@ -1,0 +1,27 @@
+.main-green {
+    color: #a0d8b3;
+  }
+  
+  .landing {
+    /* background-image: url(./../Images/Hero-About.jpg);  */
+    min-height: 100vh;
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+  }
+  
+  .ourStory {
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 32px rgba(59, 85, 230, 0.11);
+    border-radius: 6px;
+  }
+  
+  .cards{
+    position: relative;
+    top: -10rem;
+  }
+  
+  .team, .our-team{
+    position: relative;
+    top: -8rem;
+  } 
